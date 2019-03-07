@@ -98,23 +98,24 @@
 
 
 
-  <meta name="description" content="写点心得、吹个牛。。。">
-<meta property="og:type" content="website">
-<meta property="og:title" content="大yu若智">
-<meta property="og:url" content="http://yoursite.com/index.html">
+  <meta name="description" content="创建一个新库（本地库和远程库）在需要建库的目录中打开git bash，执行以下命令，即可以将本地文件目录初始化为一个git库并提交到远程库。Git global setup12git config --global user.name &amp;quot;beolee&amp;quot;git config --global user.email &amp;quot;beolee@qq.com&amp;quot; Create">
+<meta property="og:type" content="article">
+<meta property="og:title" content="git入门">
+<meta property="og:url" content="http://yoursite.com/2019/03/07/git入门/index.html">
 <meta property="og:site_name" content="大yu若智">
-<meta property="og:description" content="写点心得、吹个牛。。。">
+<meta property="og:description" content="创建一个新库（本地库和远程库）在需要建库的目录中打开git bash，执行以下命令，即可以将本地文件目录初始化为一个git库并提交到远程库。Git global setup12git config --global user.name &amp;quot;beolee&amp;quot;git config --global user.email &amp;quot;beolee@qq.com&amp;quot; Create">
 <meta property="og:locale" content="zh-Hans">
+<meta property="og:updated_time" content="2019-03-07T08:08:29.359Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="大yu若智">
-<meta name="twitter:description" content="写点心得、吹个牛。。。">
+<meta name="twitter:title" content="git入门">
+<meta name="twitter:description" content="创建一个新库（本地库和远程库）在需要建库的目录中打开git bash，执行以下命令，即可以将本地文件目录初始化为一个git库并提交到远程库。Git global setup12git config --global user.name &amp;quot;beolee&amp;quot;git config --global user.email &amp;quot;beolee@qq.com&amp;quot; Create">
 
 
 
 
 
 
-  <link rel="canonical" href="http://yoursite.com/">
+  <link rel="canonical" href="http://yoursite.com/2019/03/07/git入门/">
 
 
 
@@ -124,7 +125,7 @@
   };
 </script>
 
-  <title>大yu若智</title>
+  <title>git入门 | 大yu若智</title>
   
 
 
@@ -172,8 +173,7 @@
     
   
 
-  <div class="container sidebar-position-left 
-  page-home">
+  <div class="container sidebar-position-left page-post-detail">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -215,7 +215,7 @@
         
         
           
-          <li class="menu-item menu-item-主页 menu-item-active">
+          <li class="menu-item menu-item-主页">
 
     
     
@@ -294,9 +294,9 @@
           
           <div id="content" class="content">
             
-  <section id="posts" class="posts-expand">
+
+  <div id="posts" class="posts-expand">
     
-      
 
   
 
@@ -328,10 +328,8 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">
-                
-                
-                <a href="/2019/03/07/git入门/" class="post-title-link" itemprop="url">git入门</a>
+          <h1 class="post-title" itemprop="name headline">git入门
+
               
             
           </h1>
@@ -413,9 +411,7 @@
       
 
       
-        
-          
-            <h1 id="创建一个新库（本地库和远程库）"><a href="#创建一个新库（本地库和远程库）" class="headerlink" title="创建一个新库（本地库和远程库）"></a>创建一个新库（本地库和远程库）</h1><p>在需要建库的目录中打开git bash，执行以下命令，即可以将本地文件目录初始化为一个git库并提交到远程库。<br>Git global setup<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git config --global user.name &quot;beolee&quot;</span><br><span class="line">git config --global user.email &quot;beolee@qq.com&quot;</span><br></pre></td></tr></table></figure></p>
+        <h1 id="创建一个新库（本地库和远程库）"><a href="#创建一个新库（本地库和远程库）" class="headerlink" title="创建一个新库（本地库和远程库）"></a>创建一个新库（本地库和远程库）</h1><p>在需要建库的目录中打开git bash，执行以下命令，即可以将本地文件目录初始化为一个git库并提交到远程库。<br>Git global setup<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git config --global user.name &quot;beolee&quot;</span><br><span class="line">git config --global user.email &quot;beolee@qq.com&quot;</span><br></pre></td></tr></table></figure></p>
 <p>Create a new repository<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">git clone git@gitlab.com:beolee/python3.git</span><br><span class="line">cd python3</span><br><span class="line">touch README.md</span><br><span class="line">git add README.md</span><br><span class="line">git commit -m &quot;add README&quot;</span><br><span class="line">git push -u origin master</span><br></pre></td></tr></table></figure></p>
 <p>Existing folder<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">cd existing_folder</span><br><span class="line">git init</span><br><span class="line">git remote add origin git@gitlab.com:beolee/python3.git</span><br><span class="line">git add .</span><br><span class="line">git commit -m &quot;Initial commit&quot;</span><br><span class="line">git push -u origin master</span><br></pre></td></tr></table></figure></p>
 <p>Existing Git repository<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">cd existing_repo</span><br><span class="line">git remote rename origin old-origin</span><br><span class="line">git remote add origin git@gitlab.com:beolee/python3.git</span><br><span class="line">git push -u origin --all</span><br><span class="line">git push -u origin --tags</span><br></pre></td></tr></table></figure></p>
@@ -441,8 +437,6 @@
 </ol>
 <h1 id="如果希望用代码库中的文件完全覆盖本地工作版本-方法如下"><a href="#如果希望用代码库中的文件完全覆盖本地工作版本-方法如下" class="headerlink" title="如果希望用代码库中的文件完全覆盖本地工作版本. 方法如下:"></a>如果希望用代码库中的文件完全覆盖本地工作版本. 方法如下:</h1><p>‘’’<br>git reset –hard<br>git pull<br>‘’’</p>
 
-          
-        
       
     </div>
 
@@ -465,237 +459,28 @@
       
 
       
-
-      
-
       
       
-        <div class="post-eof"></div>
+
       
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/03/07/Hexo博客入门/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="beolee">
-      <meta itemprop="description" content="写点心得、吹个牛。。。">
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="大yu若智">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                
-                <a href="/2019/03/07/Hexo博客入门/" class="post-title-link" itemprop="url">Hexo博客入门</a>
-              
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
             
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-
+              <a href="/2019/03/07/Hexo博客入门/" rel="next" title="Hexo博客入门">
+                <i class="fa fa-chevron-left"></i> Hexo博客入门
+              </a>
             
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
             
-            
-
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">Veröffentlicht am</span>
-              
-
-              
-                
-              
-
-              <time title="Erstellt: 2019-03-07 13:51:19 / Geändert am: 15:59:01" itemprop="dateCreated datePublished" datetime="2019-03-07T13:51:19+08:00">2019-03-07</time>
-            
-
-            
-              
-
-              
-            
-          </span>
-
-          
-            <span class="post-category">
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">in</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/git/" itemprop="url" rel="index"><span itemprop="name">git</span></a></span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
+          </div>
         </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
       
 
       
-        
-          
-            <h2 id="基础知识"><a href="#基础知识" class="headerlink" title="基础知识"></a>基础知识</h2><ol>
-<li>由于github pages存放的都是静态文件，hexo的作用是将本地markdown文件生成html文件，并将页面提交到github。  </li>
-<li>为避免不必要的问题，本文所有的命令均在git bash环境下执行。<h2 id="环境安装"><a href="#环境安装" class="headerlink" title="环境安装"></a>环境安装</h2></li>
-<li><p>下载安装Node.js，网址：<a href="https://nodejs.org" target="_blank" rel="noopener">https://nodejs.org</a> ，安装成功后界面如下：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">C:\Users\beo&gt;node -v</span><br><span class="line">v10.15.3</span><br><span class="line"></span><br><span class="line">C:\Users\beo&gt;npm -v</span><br><span class="line">6.4.1</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>下载安装Git，网址：<a href="https://www.git-scm.com/download/" target="_blank" rel="noopener">https://www.git-scm.com/download/</a> ，git安装成功后，在任意文件夹中右键单击，在上下文菜单中可以看到有Git GUI Here和Git Bash Here两个菜单，在命令行中可以正确执行git命令。</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">C:\Users\beo&gt;git --version</span><br><span class="line">git version 2.20.1.windows.1</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>注册一个github账号，有的话就不用重新注册了。如本人用户名为：beolee，以下均以此为例。<br>3.1 新建一个名为”username.github.io”的仓库，如本人的仓库名为”beolee.github.io”，注意这里一定要是你的用户名，其它名称无效，以后博客的访问网址就是：<a href="https://beolee.github.io。" target="_blank" rel="noopener">https://beolee.github.io。</a><br>3.2 修改上述仓库的setting中的GitHub Pages设置，Source设置为master。<br>3.3 配置SSH key。</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ cd ~/. ssh #检查本机已存在的ssh密钥</span><br></pre></td></tr></table></figure>
-</li>
-</ol>
-<p>如果提示：No such file or directory 说明你是第一次使用git，则执行以下操作。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh-keygen -t rsa -C &quot;邮件地址&quot;</span><br></pre></td></tr></table></figure></p>
-<p>然后连续3次回车，最终会在用户目录下生成两个文件id_rsa和id_rsa.pub。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cat id_rsa.pub</span><br></pre></td></tr></table></figure></p>
-<p>将显示的内容复制，打开你的github主页，进入个人设置 -&gt; SSH and GPG keys -&gt; New SSH key，Title可以随便设置，在Key中粘贴复制的内容。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">$ ssh -T git@github.com</span><br><span class="line">The authenticity of host &apos;github.com (13.229.188.59)&apos; can&apos;t be established.</span><br><span class="line">RSA key fingerprint is SHA256:nThbg6kXUpJWGl7E1IGOCspRomTxdCARLviKw6E5SY8.</span><br><span class="line">Are you sure you want to continue connecting (yes/no)? yes</span><br><span class="line">Warning: Permanently added &apos;github.com,13.229.188.59&apos; (RSA) to the list of known hosts.</span><br><span class="line">Hi beolee! You&apos;ve successfully authenticated, but GitHub does not provide shell access.</span><br></pre></td></tr></table></figure></p>
-<p>看到这个信息说明SSH已配置成功！<br>3.4 git配置<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ git config --global user.name &quot;beolee&quot;// 你的github用户名，非昵称</span><br><span class="line">$ git config --global user.email  &quot;beolee@qq.com&quot;// 填写你的github注册邮箱</span><br></pre></td></tr></table></figure></p>
-<ol start="4">
-<li><p>安装Hexo，在自己认为合适的地方创个文件夹，如：d:\hexo，在该文件夹中右键单击，选择Git Bash Here，进入该文件夹的git工作环境。</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">$ npm install hexo -g	#安装Hexo</span><br><span class="line">$ hexo -v #检查hexo是否安装成功</span><br><span class="line">$ hexo init #初始化该文件夹</span><br><span class="line">$ npm install	#安装所需要的组件</span><br><span class="line">$ npm install hexo-deployer-git --save	#安装hexo git插件。</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>配置hexo发布到github的设置，在hexo文件夹中找到_config.yml文件，修改repo值，示例如下：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repo: https://github.com/beolee/beolee.github.io</span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>到这里，基本配置就全部完成了，下面就可以写博客了。</p>
-</li>
-</ol>
-<h2 id="写博客"><a href="#写博客" class="headerlink" title="写博客"></a>写博客</h2><ol>
-<li>在hexo目录下右键单击，选择”Git Bash Here”：<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new &quot;My New Post&quot;</span><br></pre></td></tr></table></figure>
-</li>
-</ol>
-<p>执行完命令后，进入当前目录下的source_posts目录下，可以看到一个名字”My New Post”的md文件，在此文件中写入博客内容即可。  </p>
-<ol start="2">
-<li><p>生成静态HTML文件：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>部署到远程github站点：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-</li>
-</ol>
-<p>完成以上步骤后，即可通过访问<a href="https://beolee.github.io来访问本人的博客。" target="_blank" rel="noopener">https://beolee.github.io来访问本人的博客。</a></p>
-<h2 id="删除博客"><a href="#删除博客" class="headerlink" title="删除博客"></a>删除博客</h2><p>删除source_posts目录下对应的md文件，然后依次执行hexo g，hexo d即可。</p>
-<h2 id="常用hexo命令"><a href="#常用hexo命令" class="headerlink" title="常用hexo命令"></a>常用hexo命令</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">hexo new &quot;postName&quot; #新建文章</span><br><span class="line">hexo new page &quot;pageName&quot; #新建页面</span><br><span class="line">hexo generate #生成静态页面至public目录</span><br><span class="line">hexo server #开启预览访问端口（默认端口4000，&apos;ctrl + c&apos;关闭server）</span><br><span class="line">hexo deploy #部署到GitHub</span><br><span class="line">hexo help  # 查看帮助</span><br><span class="line">hexo version  #查看Hexo的版本</span><br></pre></td></tr></table></figure>
-<p>缩写：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">hexo n == hexo new</span><br><span class="line">hexo g == hexo generate</span><br><span class="line">hexo s == hexo server</span><br><span class="line">hexo d == hexo deploy</span><br></pre></td></tr></table></figure></p>
-<p>组合命令：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo s -g #生成并本地预览</span><br><span class="line">hexo d -g #生成并上传</span><br></pre></td></tr></table></figure></p>
-<h2 id="博文插入图片"><a href="#博文插入图片" class="headerlink" title="博文插入图片"></a>博文插入图片</h2><ol>
-<li><p>配置站点文件_config.yml:</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">post_asset_folder: true</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>安装上传本地图片的插件</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install https://github.com/CodeFalling/hexo-asset-image –save</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>执行hexo new post “xxxx”<br>在/source/_posts文件夹内除了生成xxxx.md文件还会生成一个同名的文件夹，把图片复制到同名文件夹中，在博文中添加图片：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#123;% asset_img 图片名.png 图片 %&#125;</span><br></pre></td></tr></table></figure>
-</li>
-</ol>
-<h2 id="hexo修改主题"><a href="#hexo修改主题" class="headerlink" title="hexo修改主题"></a>hexo修改主题</h2><ol>
-<li>下载并安装主题<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git clone https://github.com/iissnan/hexo-theme-next themes/next</span><br></pre></td></tr></table></figure>
-</li>
-</ol>
-<p>下载好后就来修改根目录下的_config.yml文件<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"># Extensions</span><br><span class="line">## Plugins: https://hexo.io/plugins/</span><br><span class="line">## Themes: https://hexo.io/themes/</span><br><span class="line">theme: next</span><br></pre></td></tr></table></figure></p>
-<ol start="2">
-<li>按照自己的需求修改themes\next_config.yml。</li>
-<li>上传<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ hexo clean　　 #清除public文件夹 </span><br><span class="line">$ hexo g　　#编译文章，生成public文件夹</span><br><span class="line">$ hexo d　　#部署到github</span><br></pre></td></tr></table></figure></li>
-</ol>
-
-          
-        
-      
-    </div>
-
-    
-
-    
-    
-    
-
-    
-
-    
-      
-    
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
       
     </footer>
   </div>
@@ -705,14 +490,15 @@
   </article>
 
 
-    
-  </section>
-
-  
+  </div>
 
 
           </div>
           
+
+  
+
+
 
         </div>
         
@@ -732,8 +518,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            Inhaltsverzeichnis
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            Übersicht
+          </li>
+        </ul>
+      
 
-      <div class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <div class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -794,6 +589,23 @@
         </div>
       </div>
 
+      
+      <!--noindex-->
+        <div class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+            
+            
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#创建一个新库（本地库和远程库）"><span class="nav-number">1.</span> <span class="nav-text">创建一个新库（本地库和远程库）</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#git-status-中文文件名显示为八进制的字符编码问题"><span class="nav-number">2.</span> <span class="nav-text">git status 中文文件名显示为八进制的字符编码问题</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#git-本地仓库同时推送到多个远程仓库"><span class="nav-number">3.</span> <span class="nav-text">git 本地仓库同时推送到多个远程仓库</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#如果希望用代码库中的文件完全覆盖本地工作版本-方法如下"><span class="nav-number">4.</span> <span class="nav-text">如果希望用代码库中的文件完全覆盖本地工作版本. 方法如下:</span></a></li></ol></div>
+            
+
+          </div>
+        </div>
+      <!--/noindex-->
       
 
       
@@ -925,6 +737,10 @@
 
 
   
+  <script src="/js/src/scrollspy.js?v=7.0.1"></script>
+<script src="/js/src/post-details.js?v=7.0.1"></script>
+
+
 
   
 
@@ -936,6 +752,8 @@
 
   
 
+
+  
 
 
   
