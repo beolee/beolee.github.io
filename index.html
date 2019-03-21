@@ -197,7 +197,7 @@
   </div>
 
   <div class="site-nav-toggle">
-    <button aria-label="Navigationsleiste an/ausschalten">
+    <button aria-label="Toggle navigation bar">
       <span class="btn-bar"></span>
       <span class="btn-bar"></span>
       <span class="btn-bar"></span>
@@ -311,6 +311,168 @@
   
   
   <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/03/21/ftp密码有特殊符号/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="beolee">
+      <meta itemprop="description" content="写点心得、吹个牛。。。">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="大yu若智">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/2019/03/21/ftp密码有特殊符号/" class="post-title-link" itemprop="url">ftp密码有特殊符号</a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+
+              
+                
+              
+
+              <time title="Created: 2019-03-21 17:02:40 / Modified: 17:04:50" itemprop="dateCreated datePublished" datetime="2019-03-21T17:02:40+08:00">2019-03-21</time>
+            
+
+            
+              
+
+              
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/ftp/" itemprop="url" rel="index"><span itemprop="name">ftp</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>当用微软IE登录FTP时(其他浏览器应该也有这个问题)，如过直接将帐号密码写在一起的形式如<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">FTP://user : pass@11.22.33.44:8888</span><br></pre></td></tr></table></figure></p>
+<p>那么当user或pass中含有特殊字符如@、:等时，IE通常处理不过来，不过我们只要将特殊符号用%加该<br>符号的16进制ASCII代码代替就可以了，例如登录这个ftp<br>FTP://123:45:67@<a href="mailto:89@11.22.33.44" target="_blank" rel="noopener">89@11.22.33.44</a>:8888,这里用户名是123:45，密码是67@89，就可以写成如下形式<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">FTP://123%3A45:67%4089@11.22.33.44:8888</span><br></pre></td></tr></table></figure></p>
+
+          
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+      
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/03/07/ETF真的跑赢了主动管理基金么/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -349,14 +511,14 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Veröffentlicht am</span>
+                <span class="post-meta-item-text">Posted on</span>
               
 
               
                 
               
 
-              <time title="Erstellt: 2019-03-07 16:43:28" itemprop="dateCreated datePublished" datetime="2019-03-07T16:43:28+08:00">2019-03-07</time>
+              <time title="Created: 2019-03-07 16:43:28" itemprop="dateCreated datePublished" datetime="2019-03-07T16:43:28+08:00">2019-03-07</time>
             
 
             
@@ -371,9 +533,9 @@
                   <i class="fa fa-calendar-check-o"></i>
                 </span>
                 
-                  <span class="post-meta-item-text">Bearbeitet am</span>
+                  <span class="post-meta-item-text">Edited on</span>
                 
-                <time title="Geändert am: 2019-03-08 10:58:07" itemprop="dateModified" datetime="2019-03-08T10:58:07+08:00">2019-03-08</time>
+                <time title="Modified: 2019-03-08 10:58:07" itemprop="dateModified" datetime="2019-03-08T10:58:07+08:00">2019-03-08</time>
               
             
           </span>
@@ -387,7 +549,7 @@
                 <i class="fa fa-folder-o"></i>
               </span>
               
-                <span class="post-meta-item-text">in</span>
+                <span class="post-meta-item-text">In</span>
               
               
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/股票基金/" itemprop="url" rel="index"><span itemprop="name">股票基金</span></a></span>
@@ -648,14 +810,14 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Veröffentlicht am</span>
+                <span class="post-meta-item-text">Posted on</span>
               
 
               
                 
               
 
-              <time title="Erstellt: 2019-03-07 16:07:51" itemprop="dateCreated datePublished" datetime="2019-03-07T16:07:51+08:00">2019-03-07</time>
+              <time title="Created: 2019-03-07 16:07:51" itemprop="dateCreated datePublished" datetime="2019-03-07T16:07:51+08:00">2019-03-07</time>
             
 
             
@@ -670,9 +832,9 @@
                   <i class="fa fa-calendar-check-o"></i>
                 </span>
                 
-                  <span class="post-meta-item-text">Bearbeitet am</span>
+                  <span class="post-meta-item-text">Edited on</span>
                 
-                <time title="Geändert am: 2019-03-13 14:53:41" itemprop="dateModified" datetime="2019-03-13T14:53:41+08:00">2019-03-13</time>
+                <time title="Modified: 2019-03-13 14:53:41" itemprop="dateModified" datetime="2019-03-13T14:53:41+08:00">2019-03-13</time>
               
             
           </span>
@@ -686,7 +848,7 @@
                 <i class="fa fa-folder-o"></i>
               </span>
               
-                <span class="post-meta-item-text">in</span>
+                <span class="post-meta-item-text">In</span>
               
               
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/git/" itemprop="url" rel="index"><span itemprop="name">git</span></a></span>
@@ -845,14 +1007,14 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Veröffentlicht am</span>
+                <span class="post-meta-item-text">Posted on</span>
               
 
               
                 
               
 
-              <time title="Erstellt: 2019-03-07 13:51:19 / Geändert am: 16:13:56" itemprop="dateCreated datePublished" datetime="2019-03-07T13:51:19+08:00">2019-03-07</time>
+              <time title="Created: 2019-03-07 13:51:19 / Modified: 16:13:56" itemprop="dateCreated datePublished" datetime="2019-03-07T13:51:19+08:00">2019-03-07</time>
             
 
             
@@ -871,7 +1033,7 @@
                 <i class="fa fa-folder-o"></i>
               </span>
               
-                <span class="post-meta-item-text">in</span>
+                <span class="post-meta-item-text">In</span>
               
               
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/git/" itemprop="url" rel="index"><span itemprop="name">git</span></a></span>
@@ -1059,8 +1221,8 @@
                 
                   <a href="/archives">
                 
-                    <span class="site-state-item-count">3</span>
-                    <span class="site-state-item-name">Artikel</span>
+                    <span class="site-state-item-count">4</span>
+                    <span class="site-state-item-name">posts</span>
                   </a>
                 </div>
               
@@ -1080,8 +1242,10 @@
                     
                       
                     
-                    <span class="site-state-item-count">2</span>
-                    <span class="site-state-item-name">Kategorien</span>
+                      
+                    
+                    <span class="site-state-item-count">3</span>
+                    <span class="site-state-item-name">categories</span>
                   </a>
                 </div>
               
@@ -1107,8 +1271,10 @@
                     
                       
                     
-                    <span class="site-state-item-count">7</span>
-                    <span class="site-state-item-name">schlagwörter</span>
+                      
+                    
+                    <span class="site-state-item-count">8</span>
+                    <span class="site-state-item-name">tags</span>
                   
                 </div>
               
@@ -1159,7 +1325,7 @@
 </div>
 
 
-  <div class="powered-by">Erstellt mit  <a href="https://hexo.io" class="theme-link" rel="noopener" target="_blank">Hexo</a> v3.8.0</div>
+  <div class="powered-by">Powered by <a href="https://hexo.io" class="theme-link" rel="noopener" target="_blank">Hexo</a> v3.8.0</div>
 
 
 
@@ -1167,7 +1333,7 @@
 
 
 
-  <div class="theme-info">Design – <a href="https://theme-next.org" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a> v7.0.1</div>
+  <div class="theme-info">Theme – <a href="https://theme-next.org" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a> v7.0.1</div>
 
 
 
